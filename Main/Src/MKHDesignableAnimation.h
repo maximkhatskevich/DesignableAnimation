@@ -9,6 +9,6 @@
 #ifndef DesignableAnimation_MKHDesignableAnimation_h
 #define DesignableAnimation_MKHDesignableAnimation_h
 
-
+#import "UIView+MKHDesignableAnimation.h"
 
 #endif
