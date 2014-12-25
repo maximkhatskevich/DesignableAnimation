@@ -16,6 +16,4 @@ Pod::Spec.new do |s|
 
   s.source_files  = "Main/Src/*.{h,m}"
 
-  #s.dependency 'CocoaTouchHelpers/Core'
-
 end
