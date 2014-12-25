@@ -14,7 +14,7 @@
               duration:(NSTimeInterval)duration
                  delay:(NSTimeInterval)delay
                options:(UIViewAnimationOptions)options
-            animations:(void (^)(UIView *targetView))animations
+            animations:(void (^)(UIView *weakSelf, UIView *targetView))animations
             completion:(void (^)(BOOL finished))completion
 {
     static UIViewController *ctrl = nil;
@@ -40,20 +40,23 @@
         
         // animate:
         
+        __block typeof(self) weakSelf = self;
+        
         [UIView
          animateWithDuration:duration
          delay:delay
          options:options
          animations:^{
              
-             animations(targetView);
+             
+             animations(weakSelf, targetView);
          }
          completion:completion];
     }
 }
 
 - (void)animateWithNib:(NSString *)targetNibName
-            animations:(void (^)(UIView *targetView))animations
+            animations:(void (^)(UIView *weakSelf, UIView *targetView))animations
             completion:(void (^)(BOOL finished))completion
 {
     [self
@@ -66,7 +69,7 @@
 }
 
 - (void)animateWithNib:(NSString *)targetNibName
-            animations:(void (^)(UIView *targetView))animations
+            animations:(void (^)(UIView *weakSelf, UIView *targetView))animations
 {
     [self
      animateWithNib:targetNibName
