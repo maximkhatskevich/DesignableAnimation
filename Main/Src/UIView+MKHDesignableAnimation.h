@@ -14,14 +14,14 @@
               duration:(NSTimeInterval)duration
                  delay:(NSTimeInterval)delay
                options:(UIViewAnimationOptions)options
-            animations:(void (^)(UIView *weakSelf, UIView *targetView))animations
+            animations:(void (^)(id weakSelf, id targetView))animations
             completion:(void (^)(BOOL finished))completion;
 
 - (void)animateWithNib:(NSString *)targetNibName
-            animations:(void (^)(UIView *weakSelf, UIView *targetView))animations
+            animations:(void (^)(id weakSelf, id targetView))animations
             completion:(void (^)(BOOL finished))completion;
 
 - (void)animateWithNib:(NSString *)targetNibName
-            animations:(void (^)(UIView *weakSelf, UIView *targetView))animations;
+            animations:(void (^)(id weakSelf, id targetView))animations;
 
 @end
