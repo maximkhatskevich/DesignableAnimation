@@ -1,4 +1,4 @@
-DesignableAnimation
+MKHDesignableAnimation
 ===================
 
 Set of helpers that let you automate view animations through designing key view states using Interface Builder.
@@ -103,13 +103,3 @@ Typically you would use the same animations block all the time, but feel free to
 - `targetView` - a `MyView` class instance (completely independent from `self`) that has ben loaded from xib file with name `targetNibName`, it represents the same view, but with UI controls layout from the xib file you've provided.
 
 It is supposed that you should update `weakSelf` subviews' parameters (frame, color, alpha, etc.) with corresponding `targetView` subviews' parameters. It is up to you how to use `targetView`, which self subviews must be updated within this block.
-
-
-
-
-
-
-
-
-
-
