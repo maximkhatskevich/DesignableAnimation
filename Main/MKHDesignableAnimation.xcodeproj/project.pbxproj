@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		500FA9C91A4C7D470030AF07 /* libDesignableAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 500FA9BD1A4C7D470030AF07 /* libDesignableAnimation.a */; };
+		500FA9C91A4C7D470030AF07 /* libMKHDesignableAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 500FA9BD1A4C7D470030AF07 /* libMKHDesignableAnimation.a */; };
 		500FA9DC1A4C96840030AF07 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 500FA9DB1A4C96840030AF07 /* UIKit.framework */; };
 		500FA9DE1A4C968A0030AF07 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 500FA9DD1A4C968A0030AF07 /* Foundation.framework */; };
 		500FA9E11A4C96B10030AF07 /* UIView+MKHDesignableAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 500FA9E01A4C96B10030AF07 /* UIView+MKHDesignableAnimation.m */; };
@@ -36,8 +36,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		500FA9BD1A4C7D470030AF07 /* libDesignableAnimation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libDesignableAnimation.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		500FA9C81A4C7D470030AF07 /* DesignableAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesignableAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		500FA9BD1A4C7D470030AF07 /* libMKHDesignableAnimation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMKHDesignableAnimation.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		500FA9C81A4C7D470030AF07 /* MKHDesignableAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MKHDesignableAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		500FA9CE1A4C7D470030AF07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		500FA9D71A4C96050030AF07 /* MKHDesignableAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MKHDesignableAnimation.h; sourceTree = "<group>"; };
 		500FA9DB1A4C96840030AF07 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -60,7 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				500FA9C91A4C7D470030AF07 /* libDesignableAnimation.a in Frameworks */,
+				500FA9C91A4C7D470030AF07 /* libMKHDesignableAnimation.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,8 +80,8 @@
 		500FA9BE1A4C7D470030AF07 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				500FA9BD1A4C7D470030AF07 /* libDesignableAnimation.a */,
-				500FA9C81A4C7D470030AF07 /* DesignableAnimationTests.xctest */,
+				500FA9BD1A4C7D470030AF07 /* libMKHDesignableAnimation.a */,
+				500FA9C81A4C7D470030AF07 /* MKHDesignableAnimationTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -125,9 +125,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		500FA9BC1A4C7D470030AF07 /* DesignableAnimation */ = {
+		500FA9BC1A4C7D470030AF07 /* MKHDesignableAnimation */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 500FA9D11A4C7D470030AF07 /* Build configuration list for PBXNativeTarget "DesignableAnimation" */;
+			buildConfigurationList = 500FA9D11A4C7D470030AF07 /* Build configuration list for PBXNativeTarget "MKHDesignableAnimation" */;
 			buildPhases = (
 				500FA9B91A4C7D470030AF07 /* Sources */,
 				500FA9BA1A4C7D470030AF07 /* Frameworks */,
@@ -137,14 +137,14 @@
 			);
 			dependencies = (
 			);
-			name = DesignableAnimation;
+			name = MKHDesignableAnimation;
 			productName = DesignableAnimation;
-			productReference = 500FA9BD1A4C7D470030AF07 /* libDesignableAnimation.a */;
+			productReference = 500FA9BD1A4C7D470030AF07 /* libMKHDesignableAnimation.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		500FA9C71A4C7D470030AF07 /* DesignableAnimationTests */ = {
+		500FA9C71A4C7D470030AF07 /* MKHDesignableAnimationTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 500FA9D41A4C7D470030AF07 /* Build configuration list for PBXNativeTarget "DesignableAnimationTests" */;
+			buildConfigurationList = 500FA9D41A4C7D470030AF07 /* Build configuration list for PBXNativeTarget "MKHDesignableAnimationTests" */;
 			buildPhases = (
 				500FA9C41A4C7D470030AF07 /* Sources */,
 				500FA9C51A4C7D470030AF07 /* Frameworks */,
@@ -155,9 +155,9 @@
 			dependencies = (
 				500FA9CB1A4C7D470030AF07 /* PBXTargetDependency */,
 			);
-			name = DesignableAnimationTests;
+			name = MKHDesignableAnimationTests;
 			productName = DesignableAnimationTests;
-			productReference = 500FA9C81A4C7D470030AF07 /* DesignableAnimationTests.xctest */;
+			productReference = 500FA9C81A4C7D470030AF07 /* MKHDesignableAnimationTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -178,7 +178,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 500FA9B81A4C7D470030AF07 /* Build configuration list for PBXProject "DesignableAnimation" */;
+			buildConfigurationList = 500FA9B81A4C7D470030AF07 /* Build configuration list for PBXProject "MKHDesignableAnimation" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -190,8 +190,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				500FA9BC1A4C7D470030AF07 /* DesignableAnimation */,
-				500FA9C71A4C7D470030AF07 /* DesignableAnimationTests */,
+				500FA9BC1A4C7D470030AF07 /* MKHDesignableAnimation */,
+				500FA9C71A4C7D470030AF07 /* MKHDesignableAnimationTests */,
 			);
 		};
 /* End PBXProject section */
@@ -227,7 +227,7 @@
 /* Begin PBXTargetDependency section */
 		500FA9CB1A4C7D470030AF07 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 500FA9BC1A4C7D470030AF07 /* DesignableAnimation */;
+			target = 500FA9BC1A4C7D470030AF07 /* MKHDesignableAnimation */;
 			targetProxy = 500FA9CA1A4C7D470030AF07 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -311,7 +311,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = MKHDesignableAnimation;
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -320,7 +320,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = MKHDesignableAnimation;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
@@ -338,7 +338,7 @@
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = MKHDesignableAnimationTests;
 			};
 			name = Debug;
 		};
@@ -351,14 +351,14 @@
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = MKHDesignableAnimationTests;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		500FA9B81A4C7D470030AF07 /* Build configuration list for PBXProject "DesignableAnimation" */ = {
+		500FA9B81A4C7D470030AF07 /* Build configuration list for PBXProject "MKHDesignableAnimation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				500FA9CF1A4C7D470030AF07 /* Debug */,
@@ -367,7 +367,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		500FA9D11A4C7D470030AF07 /* Build configuration list for PBXNativeTarget "DesignableAnimation" */ = {
+		500FA9D11A4C7D470030AF07 /* Build configuration list for PBXNativeTarget "MKHDesignableAnimation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				500FA9D21A4C7D470030AF07 /* Debug */,
@@ -376,7 +376,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		500FA9D41A4C7D470030AF07 /* Build configuration list for PBXNativeTarget "DesignableAnimationTests" */ = {
+		500FA9D41A4C7D470030AF07 /* Build configuration list for PBXNativeTarget "MKHDesignableAnimationTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				500FA9D51A4C7D470030AF07 /* Debug */,
